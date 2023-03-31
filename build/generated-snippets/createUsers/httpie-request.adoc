@@ -1,0 +1,13 @@
+[source,bash]
+----
+$ echo '{
+  "userId" : 1,
+  "userName" : "Prabakar",
+  "password" : "password",
+  "emailId" : "abc1234@gmail.com",
+  "designation" : "tester",
+  "department" : "IT",
+  "isAdmin" : false
+}' | http POST 'http://localhost:8080/create-users' \
+    'Content-Type:application/json'
+----

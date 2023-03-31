@@ -1,0 +1,22 @@
+=  Prabakar Spring REST Docs
+
+This is an example output for a service running at http://localhost:8080:
+
+==Post API
+
+.request
+include::{snippets}/createUsers/http-request.adoc[]
+
+.response
+include::{snippets}/createUsers/http-response.adoc[]
+
+==Get API
+
+.request
+include::{snippets}/getUser/http-request.adoc[]
+
+.response
+include::{snippets}/getUser/http-response.adoc[]
+
+
+Simple Basic Junit testing Docs ! !

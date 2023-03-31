@@ -1,0 +1,16 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 187
+
+{
+  "userId" : 1,
+  "userName" : "Prabakar",
+  "password" : "password",
+  "emailId" : "abc1234@gmail.com",
+  "designation" : "tester",
+  "department" : "IT",
+  "isAdmin" : false
+}
+----

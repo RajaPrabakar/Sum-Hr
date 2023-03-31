@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-31T11:27:02" hostname="FS-D003" time="0.32">
+  <properties/>
+  <testcase name="getUser()" classname="com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting" time="0.32"/>
+  <system-out><![CDATA[16:56:59.230 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:56:59.241 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:56:59.284 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+16:56:59.297 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting], using SpringBootContextLoader
+16:56:59.302 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting]: class path resource [com/sum/hr/sum/hr/ControllerTesting/UserControllerTesting-context.xml] does not exist
+16:56:59.303 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting]: class path resource [com/sum/hr/sum/hr/ControllerTesting/UserControllerTestingContext.groovy] does not exist
+16:56:59.303 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:56:59.304 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting]: UserControllerTesting does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:56:59.398 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting]
+16:56:59.472 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\RajaprabakarPonraj\Downloads\sum hr\sum-hr\build\classes\java\main\com\sum\hr\sum\hr\SumHrApplication.class]
+16:56:59.474 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sum.hr.sum.hr.SumHrApplication for test class com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting
+16:56:59.479 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [com.sum.hr.sum.hr.ControllerTesting.UserControllerTesting]: using defaults.
+16:56:59.480 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:56:59.505 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@21a5fd96, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5769e7ae, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5c77053b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@26b894bd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@287f94b1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@30b34287, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5489c777, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3676ac27, org.springframework.test.context.event.EventPublishingTestExecutionListener@62f87c44, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@48f5bde6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@525d79f0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5149f008, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7072bc39, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@158d255c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2ca65ce4]
+16:56:59.511 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@173b9122 testClass = UserControllerTesting, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7c18432b testClass = UserControllerTesting, locations = '{}', classes = '{class com.sum.hr.sum.hr.SumHrApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@10fde30a, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@58670130, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@b2cc8c8b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@99f95f14, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4fad94a7, [ImportsContextCustomizer@7646731d key = [@org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureWebMvc(), @org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc(webDriverEnabled=true, print=DEFAULT, webClientEnabled=true, addFilters=false, printOnlyOnFailure=true), @org.springframework.boot.test.autoconfigure.properties.PropertyMapping(value="spring.test.mockmvc", skip=NO), @org.springframework.boot.test.autoconfigure.restdocs.AutoConfigureRestDocs(uriScheme="http", outputDir="build/snippets", uriPort=8080, value="", uriHost="localhost"), @org.springframework.boot.test.autoconfigure.core.AutoConfigureCache(cacheProvider=NONE), @org.springframework.test.context.BootstrapWith(value=org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper.class), @org.springframework.boot.test.autoconfigure.filter.TypeExcludeFilters(value={org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTypeExcludeFilter.class}), @org.springframework.context.annotation.Import(value={org.springframework.boot.test.autoconfigure.restdocs.RestDocumentationContextProviderRegistrar.class}), @org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest(useDefaultFilters=true, excludeFilters={}, controllers={com.sum.hr.sum.hr.CONTROLLER.UserController.class}, excludeAutoConfiguration={}, value={}, includeFilters={}, properties={}), @org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.ImportAutoConfigurationImportSelector.class}), @org.springframework.boot.autoconfigure.ImportAutoConfiguration(value={}, exclude={}, classes={}), @org.springframework.boot.test.autoconfigure.properties.PropertyMapping(value="spring.test.restdocs", skip=NO), @org.springframework.boot.test.autoconfigure.OverrideAutoConfiguration(enabled=false), @org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc(webDriverEnabled=true, print=DEFAULT, webClientEnabled=true, addFilters=true, printOnlyOnFailure=true)]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5ac86ba5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@191ae03f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@417b0282, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.9)
+
+2023-03-31 16:57:00.084  INFO 12988 --- [    Test worker] c.s.h.s.h.C.UserControllerTesting        : Starting UserControllerTesting using Java 11.0.18 on FS-D003 with PID 12988 (started by RajaprabakarPonraj in C:\Users\RajaprabakarPonraj\Downloads\sum hr\sum-hr)
+2023-03-31 16:57:00.086  INFO 12988 --- [    Test worker] c.s.h.s.h.C.UserControllerTesting        : No active profile set, falling back to 1 default profile: "default"
+2023-03-31 16:57:02.440  INFO 12988 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-03-31 16:57:02.441  INFO 12988 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-03-31 16:57:02.442  INFO 12988 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-03-31 16:57:02.475  INFO 12988 --- [    Test worker] c.s.h.s.h.C.UserControllerTesting        : Started UserControllerTesting in 2.903 seconds (JVM running for 4.41)
+2023-03-31 16:57:02.525  INFO 12988 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-03-31 16:57:02.525  INFO 12988 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-03-31 16:57:02.527  INFO 12988 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /get-all-users
+       Parameters = {}
+          Headers = [Content-Type:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = com.sum.hr.sum.hr.CONTROLLER.UserController
+           Method = com.sum.hr.sum.hr.CONTROLLER.UserController#getAllUsers()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"userId":1,"userName":"Prabakar","password":"password","emailId":"abc1234@gmail.com","designation":"tester","department":"IT","isAdmin":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

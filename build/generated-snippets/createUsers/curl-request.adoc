@@ -1,0 +1,14 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/create-users' -i -X POST \
+    -H 'Content-Type: application/json' \
+    -d '{
+  "userId" : 1,
+  "userName" : "Prabakar",
+  "password" : "password",
+  "emailId" : "abc1234@gmail.com",
+  "designation" : "tester",
+  "department" : "IT",
+  "isAdmin" : false
+}'
+----
